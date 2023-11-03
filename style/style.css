@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Noto+Sans+Indic+Siyaq+Numbers&family=Outfit:wght@200;300;400;500;600;700;800;900;1000&family=Poppins&display=swap');
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, rgba(200, 230, 255, 1), rgba(190, 220, 245, 1), rgba(255, 255, 255, 1));
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(250, 250, 255, 1), rgba(240, 240, 255, 1), rgba(240, 250, 255, 1));
+}
+.sub-header {
+  width: min(100%, 900px);
+  font-family: 'Outfit', Sans-Serif;
+  font-size: 2rem;
+  color: rgba(0, 67, 87, 1);
+  font-weight: 600;
+}
+.sub-container {
+  width: min(100%, 900px);
+  font-family: 'Outfit', Sans-Serif;
+  font-size: 2rem;
+  color: rgba(0, 67, 87, 1);
+  font-weight: 600;
+  background-image: linear-gradient(145deg, rgba(200, 250, 255, 1), rgba(220, 245, 245, 1), rgba(255, 255, 255, 1));
+  box-shadow: 0 0 1.5rem rgba(220, 220, 220, .5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.welcome {
+  color: rgba(0, 107, 127, 1);
+}
+.judul {
+  line-height: 3.5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.slogan {
+  font-weight: 500;
+  color: rgba(0, 107, 127, 1);
+}
+.do {
+  margin-top: -1.5rem;
+}
+.since {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.intro {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.wp {
+  font-weight: 600;
+  color: rgba(0, 47, 57, 1);
+}
+.Participants {
+  color: rgba(0, 157, 187, 1);
+  background-color: rgba(0, 47, 57, 1);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: .5rem 1.5rem;
+  border-radius: .8rem;
+  box-shadow: 0 1rem 1.5rem rgba(50, 50, 50, .5);
+  transition: all .3s;
+}
+#Participants:hover {
+  background-color: rgba(0, 157, 187, 1);
+  color: rgba(0, 47, 57, 1);
+  transform: translateY(-.5rem);
+}
+.detailpart {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.plist {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+.sub-plist {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 1rem 1.5rem rgba(50, 50, 50, .5);
+  padding: .1rem;
+  border-radius: 1rem;
+  transition: all .3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .sub-plist:hover {
+  transform: scale(1.05, 1.05);
+  background-color: rgba(0, 47, 57, 1);
+}
+.sub-plist:hover .img {
+  opacity: .1;
+} */
+.img {
+  width: 100%;
+  border-radius: 1rem;
+  position: relative;
+}
+.ketny {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 5;
+}
+.nama {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -1.5rem;
+  text-shadow: 0 0 1rem rgba(255, 255, 255, .4);
+}
+.sub-nama {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: -1.5rem;
+  text-shadow: 0 0 1rem rgba(255, 255, 255, .4);
+}
+.icony {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 0 0 1rem rgba(255, 255, 255, .4);
+}
+.wa {
+  background-color: white;
+  color: rgba(0, 47, 57, 1);
+  padding: .1rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: .2rem;
+  margin-top: -.4rem;
+  box-shadow: 0 0 1rem rgba(255, 255, 255, .4);
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.none {
+  display: none;
+}
+footer {
+  width: 100%;
+  min-height: 8rem;
+  background-image: linear-gradient(180.5deg, rgba(240, 250, 255, 1), rgba(220, 255, 255, 1), rgba(210, 255, 255, 1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Outfit', Sans-Serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.foot {
+  color: rgba(0, 107, 127, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (min-width: 900px) {
+  .sub-container {
+    border-radius: 1rem;
+  }
+}
